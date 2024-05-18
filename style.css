@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #ffefba, #ffffff);
+  text-align: center;
+  padding: 50px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+button {
+  background-color: #4caf50; /* Green background */
+  border: none;
+  color: white; /* White text */
+  padding: 15px; /* Padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: block; /* Block display to stack vertically */
+  font-size: 16px; /* Increase font size */
+  margin: 10px auto; /* Margin to center the button */
+  cursor: pointer; /* Pointer cursor */
+  border-radius: 12px; /* Rounded corners */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  width: 200px; /* Fixed width */
+}
+
+button:hover {
+  background-color: #09770c; /* Darker green on hover */
+  transform: scale(1.1); /* Slightly larger on hover */
+}
+
+button:active {
+  background-color: #3e8e41; /* Even darker green when clicked */
+  transform: scale(1); /* Back to original size */
+}
+
+#reset {
+  background-color: skyblue;
+}
+#reset:hover {
+  background-color: rgb(9, 62, 83); /* Darker color on hover */
+}
+#choices {
+  display: flex; /* Flexbox for alignment */
+  flex-direction: column; /* Stack buttons vertically */
+  align-items: center; /* Center align items */
+}
+
+#computer-choice,
+#user-choice,
+#result {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Add some fun styling for the result text */
+#result {
+  font-size: 28px;
+  color: #a07321;
+  margin-top: 30px;
+}
