@@ -10,6 +10,10 @@
 - [Contributing](#contributing)
 - [License](#license)
 
+## Live Link
+
+https://RyanPersaud03.github.io/rock-paper-scissors/
+
 ## Introduction
 
 Hello fellow git users, checkout this Rock Paper Scissors Game! This is a simple and fun web-based implementation of the classic game, where you can play against the computer. The game is built using HTML, CSS, and JavaScript, providing an interactive and engaging experience. As a Junior Developer I created this game for learning purposes, However anyone is welcome to build upon this if they wamt.
